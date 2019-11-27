@@ -7,6 +7,20 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+IMPORTANT-------------------------------------------
+
+1/ First install composer globally on your machine, this is very important, please dont't forget it here the doc: https://getcomposer.org/doc/00-intro.md
+2/in your terminal first install globally Laravel with this command : composer global require laravel/installer Make sure to place Composer's system-wide vendor bin directory in your $PATH so the laravel executable can be located by your system. This directory exists in different locations based on your operating system; however, some common locations include:
+macOS and GNU / Linux Distributions: $HOME/.composer/vendor/bin
+Windows: %USERPROFILE%\AppData\Roaming\Composer\vendor\bin
+3/In your laravel working directory, please use in your terminal the following command : composer create-project --prefer-dist laravel/laravel blog
+4/For further informations, please contact us or check the Laravel documentation: https://laravel.com/docs/6.x
+
+
+----------------------------------------------------
+
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
